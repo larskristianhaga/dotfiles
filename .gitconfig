@@ -1,0 +1,16 @@
+[user]
+    name = Lars Kristian Haga
+    email = LarsKHaga@gmail.com
+
+[alias]
+    s = status
+    st = status
+    c = commit -m
+    ca = 'commit -m; git push origin'
+    ps = push origin
+    pl = pull origin
+    br = branch
+    co = checkout
+    sw = switch
+    i = init   
+    all = add .
