@@ -12,5 +12,9 @@
     br = branch
     co = checkout
     sw = switch
-    i = init   
+    i = init
     all = add .
+[core]
+        autocrlf = input
+[push]
+        autoSetupRemote = true
