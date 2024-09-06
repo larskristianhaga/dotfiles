@@ -15,6 +15,7 @@
     i = init
     all = add .
 [core]
-        autocrlf = input
+	autocrlf = input
+	editor = nano
 [push]
-        autoSetupRemote = true
+	autoSetupRemote = true
