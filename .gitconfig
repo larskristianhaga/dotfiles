@@ -14,6 +14,7 @@
     sw = switch
     i = init
     all = add .
+    allp = add . -p
 [core]
 	autocrlf = input
 	editor = nano
