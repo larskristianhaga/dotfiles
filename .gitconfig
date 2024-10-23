@@ -15,6 +15,8 @@
     i = init
     all = add .
     allp = add . -p
+    pul = pull
+    pulll = pull
 [core]
 	autocrlf = input
 	editor = nano
