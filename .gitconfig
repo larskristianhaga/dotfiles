@@ -17,8 +17,14 @@
     allp = add . -p
     pul = pull
     pulll = pull
+    diffs = diff --staged
 [core]
 	autocrlf = input
 	editor = nano
 [push]
 	autoSetupRemote = true
+	default = current
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
