@@ -19,6 +19,7 @@
     pulll = pull
     diffs = diff --staged
     git = status
+    puhs = push
 [core]
 	autocrlf = input
 	editor = nano
