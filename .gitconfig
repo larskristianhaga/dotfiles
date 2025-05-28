@@ -15,6 +15,8 @@
     i = init
     all = add .
     allp = add . -p
+    ad = add
+    addd = add
     pul = pull
     pulll = pull
     diffs = diff --staged       
