@@ -9,3 +9,13 @@ A collection of dot files
 `.zshrc` to be placed `~/.zshrc`.
 
 `jetbrains-settings.zip` to be consumed by a Jetbrains product.
+
+### Override commands
+
+```bash
+cp .gitconfig ~/.gitconfig
+```
+
+```bash
+cp .zshrc ~/.zshrc
+```
