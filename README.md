@@ -6,6 +6,8 @@ A collection of dot files
 
 `.gitconfig` to be placed `~/.gitconfig`.
 
+`.gitignore` to be placed in relevant repository root.
+
 `.zshrc` to be placed `~/.zshrc`.
 
 `jetbrains-settings.zip` to be consumed by a Jetbrains product.
