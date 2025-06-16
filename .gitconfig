@@ -2,6 +2,9 @@
     name = Lars Kristian Haga
     email = larskhaga@gmail.com
 
+[color]
+    ui = always
+
 [alias]
     s = status
     st = status
@@ -19,9 +22,12 @@
     addd = add
     pul = pull
     pulll = pull
-    diffs = diff --staged       
-    git = status        
+    diffs = diff --staged
     puhs = push
+    cherrypick = cherry-pick
+
+    # If you do `git git status`, this sorts out the duplicate
+    git = !exec git
 
 [core]
         autocrlf = input
