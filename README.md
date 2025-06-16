@@ -10,12 +10,20 @@ A collection of dot files
 
 `jetbrains-settings.zip` to be consumed by a Jetbrains product.
 
-### Override commands
-
+### Create symlink
 ```bash
-cp .gitconfig ~/.gitconfig
+ln -s [FULL_PATH_TO_REPO]/.gitconfig ~/.gitconfig
 ```
 
 ```bash
-cp .zshrc ~/.zshrc
+ln -s [FULL_PATH_TO_REPO]/.zshrc ~/.zshrc
+```
+
+### Verify symlink
+```bash
+ls -l ~/.gitconfig
+```
+
+```bash
+ls -l ~/.zshrc
 ```
