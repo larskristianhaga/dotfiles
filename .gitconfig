@@ -22,6 +22,9 @@
     addd = add
     pul = pull
     pulll = pull
+    pil = pull
+    pill = pull
+    pilll = pull
     diffs = diff --staged
     puhs = push
     cherrypick = cherry-pick
