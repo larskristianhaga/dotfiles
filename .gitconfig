@@ -6,8 +6,8 @@
     ui = always
 
 [alias]
-    s = status
-    st = status
+    s = status -s
+    st = status -s
     c = commit -m
     ca = 'commit -m; git push origin'
     ps = push origin
@@ -29,6 +29,11 @@
     puhs = push
     cherrypick = cherry-pick
 	branches = !git for-each-ref --sort=\"-committerdate:iso8601\" --format=\"%(committerdate:relative)|%(refname:short)|%(committername)\" refs/remotes/ | column -s \"|\" -t
+
+    contributors = shortlog --summary --numbered
+
+    # Finds commits by commit message.
+    fm = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
 
     # If you do `git git status`, this sorts out the duplicate
     git = !exec git
