@@ -38,6 +38,8 @@
     # If you do `git git status`, this sorts out the duplicate
     git = !exec git
 
+    empty = commit --allow-empty -m "Empty commit"
+
 [core]
         autocrlf = input
         editor = vim
