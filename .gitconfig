@@ -9,6 +9,8 @@
     s = status -s
     st = status -s
     c = commit -m
+    comit = commit
+    commmit = commit
     ca = 'commit -m; git push origin'
     ps = push origin
     pl = pull origin
