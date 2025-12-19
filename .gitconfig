@@ -11,6 +11,7 @@
     c = commit -m
     comit = commit
     commmit = commit
+    commt = commit
     ca = 'commit -m; git push origin'
     ps = push origin
     pl = pull origin
