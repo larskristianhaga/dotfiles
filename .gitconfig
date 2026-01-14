@@ -8,8 +8,9 @@
 [alias]
     s = status -s
     ts = status -s
-    st = status -s
     tps = status -s
+    staus = status -s
+    st = status
 
     c = commit -m
     comit = commit
