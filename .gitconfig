@@ -27,6 +27,7 @@
     pil = pull
     pill = pull
     pilll = pull
+    tpull = pull
 
     br = branch
     co = checkout
