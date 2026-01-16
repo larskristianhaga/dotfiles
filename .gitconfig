@@ -37,6 +37,7 @@
 
     all = add .
     allp = add . -p
+    ap = add . -p
     ad = add
     addd = add
 
