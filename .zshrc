@@ -10,3 +10,4 @@ alias zed="open -a /Applications/Zed.app -n"
 # For when trying to type too fast, eg `gi ts`.
 alias gi='git'
 alias ts='status'
+alias gits='git s'
