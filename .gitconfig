@@ -20,6 +20,7 @@
 
     puhs = push
     ps = push origin
+    os = push origin
 
     pl = pull origin
     pul = pull
