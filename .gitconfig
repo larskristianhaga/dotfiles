@@ -16,6 +16,7 @@
     comit = commit
     commmit = commit
     commt = commit
+    commi = commit
     ca = 'commit -m; git push origin'
 
     puhs = push
