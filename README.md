@@ -10,7 +10,7 @@ A collection of dot files
 
 `.zshrc` to be placed `~/.zshrc`.
 
-`jetbrains-settings.zip` to be consumed by a Jetbrains product.
+`jetbrains-settings.zip` to be consumed by a JetBrains product.
 
 ### Create symlink
 ```bash
