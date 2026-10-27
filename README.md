@@ -14,11 +14,11 @@ A collection of dot files
 
 ### Create symlink
 ```bash
-ln -s [FULL_PATH_TO_REPO]/.gitconfig ~/.gitconfig
+ln -s /Users/larskristianhaga/dev/dotfiles/.gitconfig ~/.gitconfig
 ```
 
 ```bash
-ln -s [FULL_PATH_TO_REPO]/.zshrc ~/.zshrc
+ln -s /Users/larskristianhaga/dev/dotfiles/.zshrc ~/.zshrc
 ```
 
 ### Verify symlink
