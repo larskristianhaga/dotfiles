@@ -33,3 +33,6 @@ killport() {
   echo "$pids" | xargs kill -9
 }
 alias kill-port='killport'
+
+export PATH="$JAVA_HOME/bin:$PATH"
+export JAVA_HOME=$(/usr/libexec/java_home -v 25)
